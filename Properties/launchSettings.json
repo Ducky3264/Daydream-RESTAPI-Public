@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "SelfHost": {
+      "commandName": "Project",
+      "commandLineArgs": "daydream://redirect/oauth daydream://redirect",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://0.0.0.0:5001"
+    }
+  }
+}
